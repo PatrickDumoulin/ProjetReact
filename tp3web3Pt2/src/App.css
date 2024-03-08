@@ -1,0 +1,122 @@
+.titre{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2711cd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.soustitre{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2711cd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.OutilsSelection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;     
+                
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.selecteurVille{
+  background-color: #12b218;
+  color: white;
+}
+
+.selecteurMois{
+  background-color: #4488c3;
+  color: white;
+}
+
+.resultats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+  color: #4488c3;
+    
+                
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+} 
+
+.villeNom{
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid blue; 
+  color: #2711cd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.resultats{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  color: #4488c3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%; 
+  margin: 20px auto; 
+  border: #2711cd 2px solid; 
+  background-color: white;
+  
+} 
+
+
+
+.lever, .coucher, .duree {
+  display: flex; 
+  align-items: center; 
+  font-size: 18px;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.cartes-container {
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #add8e6, #87CEFA); 
+  padding: 20px;
+}
+
+
+.coucherImage{
+  
+    width: 50px;
+    margin-right: 50px;
+  
+}
+
+.leverImage{
+  
+    width: 50px;
+    margin-right: 58px; 
+  
+}
+
+
+
+.texteDroite{
+  margin-left: 50px;
+
+  
+}
+
