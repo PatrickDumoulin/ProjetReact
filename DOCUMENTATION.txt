@@ -1,0 +1,32 @@
+D'accord, je comprends mieux maintenant. Voici un exemple de documentation `README` pour votre projet d'éphémérides solaires dans le cadre du cours 420-FAK au Cégep Limoilou, englobant les deux parties du TP3 :
+
+# Projet Éphémérides Solaires - TP3
+
+## Description
+Ce projet, réalisé dans le cadre du cours 420-FAK au Cégep Limoilou, vise à développer une application web capable de calculer et d'afficher les éphémérides solaires (lever et coucher du Soleil) pour différentes villes à travers le monde. La première partie du travail pratique se concentre sur la création de l'application avec l'outil `create-react-app` et l'intégration d'un module de calculs de mécanique céleste. La seconde partie ajoute une fonctionnalité de communication bidirectionnelle permettant d'ajouter et de supprimer dynamiquement des villes sous forme de cartes dans l'interface utilisateur.
+
+## Fonctionnalités
+- **Calcul du lever et du coucher du Soleil** : Affichage des éphémérides solaires pour des villes sélectionnées.
+- **Sélection dynamique** : Utilisateurs peuvent choisir des villes et des dates pour lesquelles ils souhaitent voir les éphémérides solaires.
+- **Interface réactive** : À chaque sélection, les informations s'actualisent sans nécessiter de rechargement de la page.
+- **Ajout et suppression de cartes** : Dans la deuxième partie du TP, les utilisateurs peuvent personnaliser l'interface en ajoutant ou supprimant des cartes de villes.
+
+## Technologie
+- **React** : Utilisé pour le développement de l'interface utilisateur grâce à l'outil `create-react-app`.
+- **Module de Calculs Mécanique Céleste** : Un module JavaScript externe est intégré pour les calculs des éphémérides solaires.
+- **HTML/CSS** : Pour la mise en forme de l'application web.
+- **JavaScript (ES6+)** : Pour la logique de l'application, la manipulation des données et l'interaction avec l'interface utilisateur.
+
+## Installation
+1. Installez Node.js et npm sur votre machine si ce n'est pas déjà fait.
+2. Clonez le dépôt de ce projet ou téléchargez les fichiers source.
+3. Dans le répertoire du projet, exécutez `npm install` pour installer les dépendances nécessaires.
+4. Lancez le projet avec `npm start`. Votre navigateur ouvrira automatiquement l'application à l'adresse `localhost:3000`.
+
+## Structure du Projet
+- `/src` : Contient les composants React, le module de calculs et les styles CSS.
+- `/public` : Contient les fichiers statiques, tels que l'index.html principal.
+- `README.md` : Ce fichier, qui fournit des informations sur le projet et des instructions pour son installation et son utilisation.
+
+## Contact
+Si vous avez des questions ou des suggestions concernant ce projet, n'hésitez pas à contacter Patrick Dumoulin à l'adresse dumoulinpatrick357@gmail.com
