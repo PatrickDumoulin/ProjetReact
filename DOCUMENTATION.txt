@@ -1,4 +1,3 @@
-D'accord, je comprends mieux maintenant. Voici un exemple de documentation `README` pour votre projet d'éphémérides solaires dans le cadre du cours 420-FAK au Cégep Limoilou, englobant les deux parties du TP3 :
 
 # Projet Éphémérides Solaires - TP3
 
